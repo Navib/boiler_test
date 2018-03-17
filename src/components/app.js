@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import RaisedButton from "material-ui/RaisedButton";
 import Menu from "../containers/Menu";
+import Test from "../containers/test";
 import GridInline from "../components/grid_inline";
 
 const App = props => (
@@ -9,6 +10,7 @@ const App = props => (
     <Menu />
     <RaisedButton label={props.buttonText} onClick={props.onClick} />
     <GridInline />
+    <Test />
   </div>
 );
 
