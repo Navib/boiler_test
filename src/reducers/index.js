@@ -1,12 +1,12 @@
 import { combineReducers } from "redux";
 import basicReducer from "./basic_reducer";
-import stuffReducer from "./stuff_reducer";
+import headerReducer from "./header_reducer";
 import { routerReducer } from "react-router-redux";
 
 const rootReducer = combineReducers({
   routing: routerReducer,
   text: basicReducer,
-  stuff: stuffReducer
+  header: headerReducer
 });
 
 export default rootReducer;

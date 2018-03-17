@@ -1,16 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import RaisedButton from "material-ui/RaisedButton";
-import Menu from "../containers/Menu";
-import Test from "../containers/test";
-import GridInline from "../components/grid_inline";
+import Header from "../containers/header";
 
 const App = props => (
   <div>
-    <Menu />
-    <RaisedButton label={props.buttonText} onClick={props.onClick} />
-    <GridInline />
-    <Test />
+    <h1>Justin Schilling</h1>
+    <Header />
   </div>
 );
 

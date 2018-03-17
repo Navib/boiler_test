@@ -13,5 +13,5 @@ function* getStuff() {
   }
 }
 export function* sagas() {
-  yield takeLatest(actions.GET_STUFF, getStuff);
+  yield takeLatest(actions.GET_HEADER, getStuff);
 }

@@ -2,7 +2,7 @@ import axios from "axios";
 import actions from "../actions";
 
 const makeRequest = (urlExtension, data = {}) =>
-  axios.get("https://api.myjson.com/bins/15vnj7", data, {
+  axios.get("https://api.myjson.com/bins/f4o3f", data, {
     withCredentials: false
   });
 
