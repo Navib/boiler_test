@@ -4,7 +4,6 @@ import Header from "../containers/header";
 
 const App = props => (
   <div>
-    <h1>Justin Schilling</h1>
     <Header />
   </div>
 );

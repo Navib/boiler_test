@@ -1,0 +1,58 @@
+@lost flexbox flex;
+
+.header-wrapper {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  lost-column: 1/1;
+  lost-align: center;
+
+  .card-info {
+    lost-column: 1/2 0;
+    z-index: 10;
+    background: white;
+    lost-align: center;
+    margin: 0;
+    height: 300px;
+    flex-flow: column wrap;
+
+    .name,
+    .location,
+    .attr {
+      lost-align: center;
+      margin: 0 !important;
+      text-transform: uppercase;
+    }
+
+    .name {
+      font-size: 2.2rem;
+    }
+
+    .location {
+      font-size: 1.2rem;
+    }
+    .attr {
+      font-size: 1.6rem;
+      padding: 0.8rem;
+    }
+  }
+
+  .right-side,
+  .left-side {
+    z-index: 10;
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-transform: uppercase;
+  }
+
+  .left-side {
+    left: 1em;
+    top: 3em;
+  }
+
+  .right-side {
+    right: 1em;
+    bottom: 3em;
+  }
+}
