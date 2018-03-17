@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "author": "Author 1",
+    "quote": "Lorem Impsum Quotes is Said enough 1",
+    "bgImage": "http://via.placeholder.com/350x150"
+  },
+  {
+    "id": 1,
+    "author": "Author 2",
+    "quote": "Lorem Impsum Quotes is Said enough 2",
+    "bgImage": "http://via.placeholder.com/350x150"
+  },
+  {
+    "id": 2,
+    "author": "Author 3",
+    "quote": "Lorem Impsum Quotes is Said enough 3",
+    "bgImage": "http://via.placeholder.com/350x150"
+  },
+  {
+    "id": 3,
+    "author": "Author 4",
+    "quote": "Lorem Impsum Quotes is Said enough 4",
+    "bgImage": "http://via.placeholder.com/350x150"
+  },
+  {
+    "id": 4,
+    "author": "Author 5",
+    "quote": "Lorem Impsum Quotes is Said enough 5",
+    "bgImage": "http://via.placeholder.com/350x150"
+  },
+  {
+    "id": 5,
+    "author": "Author 6",
+    "quote": "Lorem Impsum Quotes is Said enough 6",
+    "bgImage": "http://via.placeholder.com/350x150"
+  }
+]

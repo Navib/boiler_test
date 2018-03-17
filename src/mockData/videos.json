@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "video": "./assets/videos/test.mp4",
+    "demo_video": "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
+    "title": "Test Title"
+  },
+  {
+    "id": 1,
+    "video": "./assets/videos/test.mp4",
+    "demo_video": "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
+    "title": "Test Title"
+  },
+  {
+    "id": 2,
+    "video": "./assets/videos/test.mp4",
+    "demo_video": "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
+    "title": "Test Title"
+  },
+  {
+    "id": 3,
+    "video": "./assets/videos/test.mp4",
+    "demo_video": "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
+    "title": "Test Title"
+  },
+  {
+    "id": 4,
+    "video": "./assets/videos/test.mp4",
+    "demo_video": "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
+    "title": "Test Title"
+  },
+  {
+    "id": 5,
+    "video": "./assets/videos/test.mp4",
+    "demo_video": "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
+    "title": "Test Title"
+  }
+]

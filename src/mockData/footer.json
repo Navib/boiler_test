@@ -1,0 +1,31 @@
+{
+  "social": [
+    {
+      "id": 0,
+      "src": "#",
+      "name": "Facebook"
+    },
+    {
+      "id": 1,
+      "src": "#",
+      "name": "Twitter"
+    },
+    {
+      "id": 2,
+      "src": "#",
+      "name": "Youtube"
+    },
+    {
+      "id": 3,
+      "src": "#",
+      "name": "Vimeo"
+    }
+  ],
+  "name": "Justin C. Schilling",
+  "contact": {
+    "location": "New York City",
+    "email": "email@address.com",
+    "management_name": "Management Name",
+    "management_contact": "mgmt@email.com"
+  }
+}
