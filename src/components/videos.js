@@ -15,7 +15,9 @@ const styles = {
     overflowX: "auto"
   },
   titleStyle: {
-    color: "rgb(0, 188, 212)"
+    color: "rgb(255, 255, 255)",
+    letterSpacing: "1px",
+    textTransform: "uppercase"
   }
 };
 
@@ -65,22 +67,20 @@ const tilesData = [
 const Videos = () => (
   <div className="video-wrapper">
     <div style={styles.root}>
-      <GridList style={styles.gridList} cols={2.2} cellHeight={"auto"}>
+      <GridList style={styles.gridList} cols={1} cellHeight={"auto"}>
         {tilesData.map(tile => (
           <GridTile
             key={tile.title}
             title={tile.title}
-            actionIcon={
-              <IconButton>
-                <StarBorder color="rgb(0, 188, 212)" />
-              </IconButton>
-            }
             titleStyle={styles.titleStyle}
-            titleBackground="linear-gradient(to top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)"
+            titleBackground="linear-gradient(to top, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)"
+            titlePosition={"top"}
           >
-            <video width="600" height="400" controls>
-              <source src={tile.video} type="video/mp4" />
-            </video>
+            <div className="video-player-wrap">
+              <video controls>
+                <source src={tile.video} type="video/mp4" />
+              </video>
+            </div>
           </GridTile>
         ))}
       </GridList>

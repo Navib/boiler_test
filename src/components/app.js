@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Header from "../containers/header";
-import Videos from "../components/videos";
+import Videos from "../containers/videos";
 
 const App = props => (
   <div>

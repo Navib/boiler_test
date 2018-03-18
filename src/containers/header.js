@@ -3,7 +3,6 @@ import actions from "../actions";
 import TheComponent from "../components/header";
 
 const mapStateToProps = (state, ownProps) => {
-  console.log("state: ", state);
   return {
     header: state.header.data
   };
