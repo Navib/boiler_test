@@ -11,17 +11,32 @@ const Footer = props => {
         <ul className="social-bar">
           {social.map(item => (
             <li className={`social-item ${item.name}-icon`} key={item.id}>
-              <a href={item.src}>{item.name}</a>
+              <a href={item.src} target="_blank">
+                {item.name}
+              </a>
             </li>
           ))}
         </ul>
         <div className="footer-contact-card">
           <h1 className="f-name">{name}</h1>
           <ul className="contact-list">
-            <li>{contact.email}</li>
-            <li>{contact.location}</li>
-            <li>{contact.management_contact}</li>
-            <li>{contact.management_name}</li>
+            <li className="contact-list-item">
+              <a href={`mailto:${contact.email}`}>{contact.email}</a>
+            </li>
+            <li className="contact-list-item">
+              <a
+                href="https://www.google.com/maps/place/New+York,+NY/@40.6971494,-74.2598687,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728"
+                target="_blank"
+              >
+                {contact.location}
+              </a>
+            </li>
+            <li className="contact-list-item">
+              <a href={`tel:+01-${contact.management_contact}`}>
+                {contact.management_contact}
+              </a>
+            </li>
+            <li className="contact-list-item">{contact.management_name}</li>
           </ul>
         </div>
       </div>

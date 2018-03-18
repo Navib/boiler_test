@@ -1,0 +1,37 @@
+{
+  "social": [
+    {
+      "id": 0,
+      "src": "http://www.imdb.com/name/nm6937619/",
+      "name": "IMDB"
+    },
+    {
+      "id": 1,
+      "src": "https://twitter.com/jcsactor",
+      "name": "Twitter"
+    },
+    {
+      "id": 2,
+      "src": "https://www.instagram.com/justincschilling/?hl=en",
+      "name": "Instagram"
+    },
+    {
+      "id": 3,
+      "src": "https://www.facebook.com/JustinCSchilling/",
+      "name": "Facebook"
+    },
+    {
+      "id": 4,
+      "src": "http://resumes.actorsaccess.com/justincschilling",
+      "name": "Resume"
+    }
+  ],
+  "name": "Justin C. Schilling",
+  "contact": {
+    "location": "New York City",
+    "email": "justincschilling@gmail.com",
+    "management_name": "Ingrid French Management (NY)",
+    "management_contact": "(646) 602-0653"
+  },
+  "bgImage": "./assets/footer_bg.png"
+}

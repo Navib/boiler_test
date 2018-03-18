@@ -29,9 +29,18 @@
         border-left: 1px solid #dbdde644;
 
         .text-body {
+          padding: 0 1em;
+          font-size: 0.9rem;
+          line-height: 1.4rem;
+          text-align: center;
         }
 
         .text-author {
+          font-size: 1.3rem;
+          padding: 0 10px;
+          text-transform: uppercase;
+          text-align: center;
+          line-height: 1.6rem;
         }
       }
 

@@ -9,7 +9,7 @@ const Header = props => {
     backgroundImage: `url(${props.header.imgSrc})`,
     backgroundSize: "cover",
     height: "100vh",
-    backgroundPosition: "center top",
+    backgroundPosition: "top",
     position: "absolute",
     width: "100%",
     top: 0,

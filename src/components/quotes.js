@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import Swiper from "react-id-swiper";
 import PropTypes from "prop-types";
+import "../assets/face_1.png";
+import "../assets/face_2.png";
+import "../assets/jcsactor.png";
+import "../assets/studio.png";
+import "../assets/tmobile.png";
+import "../assets/onsetdam.png";
 
 const params = {
   direction: "vertical",
