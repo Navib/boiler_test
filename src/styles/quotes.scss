@@ -1,0 +1,35 @@
+@lost flexbox flex;
+
+.quote-wrapper {
+  padding: 4em 0;
+  lost-utility: clearfix;
+  lost-center: 980px;
+  lost-align: center;
+
+  .swiper-container {
+    height: 600px;
+    width: 100%;
+
+    .quote-slide {
+      display: flex;
+
+      .left-side,
+      .right-side {
+        lost-column: 1/2 0;
+        lost-align: center;
+      }
+
+      .left-side {
+        background: #444;
+        height: 550px;
+        color: #fff;
+      }
+
+      .right-side {
+        background: #fff;
+        color: #444;
+        height: 550px;
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { GridList, GridTile } from "material-ui/GridList";
 import IconButton from "material-ui/IconButton";
 import StarBorder from "material-ui/svg-icons/toggle/star-border";
@@ -22,7 +23,6 @@ const styles = {
 };
 
 const Videos = props => {
-  console.log(props);
   if (props.videos === undefined) return <div>loading...</div>;
 
   return (
@@ -48,6 +48,20 @@ const Videos = props => {
       </div>
     </div>
   );
+};
+
+Videos.propTypes = {
+  videos: PropTypes.array
+};
+
+Videos.defaultProps = {
+  videos: [
+    {
+      title: "Default Title",
+      id: "0",
+      demo_video: "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4"
+    }
+  ]
 };
 
 export default Videos;
