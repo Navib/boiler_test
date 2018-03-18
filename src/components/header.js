@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Paper from "material-ui/Paper";
+import "../assets/header_face.png";
 
 const Header = props => {
   console.log("Menu Container:", props);
-  const { name, location, demoImg, attributes } = props.header;
+  const { name, location, demoImg, attributes, imgSrc } = props.header;
   const headerStyle = {
-    backgroundImage: `url(${props.header.demoImg})`,
+    backgroundImage: `url(${props.header.imgSrc})`,
     backgroundSize: "cover",
     height: "100vh",
-    backgroundPosition: "center",
+    backgroundPosition: "center top",
     position: "absolute",
     width: "100%",
     top: 0,
