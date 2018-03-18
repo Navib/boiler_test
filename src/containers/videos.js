@@ -4,7 +4,7 @@ import TheComponent from "../components/videos";
 
 const mapStateToProps = (state, OwnProps) => {
   console.log("videos: ", state);
-  return {};
+  return { videos: state.videos.data };
 };
 
 const mapDispatchToProps = (dispatch, ownProps) => {

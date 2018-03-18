@@ -5,7 +5,6 @@ import header from "../api/header";
 import videos from "../api/videos";
 
 function* getStuff() {
-  console.log("Stuff");
   try {
     const data = yield call(header.getStuff);
     yield put({ type: actions.GOT_STUFF, data });
@@ -16,7 +15,6 @@ function* getStuff() {
 }
 
 function* getVideos() {
-  console.log("Videos");
   try {
     const data = yield call(videos.getVideos);
     yield put({ type: actions.GOT_VIDEOS, data });

@@ -4,7 +4,6 @@ import Paper from "material-ui/Paper";
 import "../assets/header_face.png";
 
 const Header = props => {
-  console.log("Menu Container:", props);
   const { name, location, demoImg, attributes, imgSrc } = props.header;
   const headerStyle = {
     backgroundImage: `url(${props.header.imgSrc})`,
