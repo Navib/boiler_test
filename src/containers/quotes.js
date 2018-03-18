@@ -3,7 +3,6 @@ import actions from "../actions";
 import TheComponent from "../components/quotes";
 
 const mapStateToProps = (state, OwnProps) => {
-  console.log(state.quotes.data);
   return { quotes: state.quotes.data };
 };
 

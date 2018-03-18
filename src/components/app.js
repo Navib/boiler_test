@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Header from "../containers/header";
 import Videos from "../containers/videos";
 import Quotes from "../containers/quotes";
+import Footer from "../containers/footer";
 import Divider from "material-ui/Divider";
 
 const App = props => (
@@ -12,6 +13,7 @@ const App = props => (
     <Divider style={{ marginTop: "4em" }} />
     <Quotes />
     <Divider />
+    <Footer />
   </div>
 );
 

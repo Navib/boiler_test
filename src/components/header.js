@@ -14,7 +14,10 @@ const Header = props => {
     width: "100%",
     top: 0,
     left: 0,
-    zIndex: "-1"
+    zIndex: "-1",
+    backgroundPosition: "center",
+    backgroundAttachment: "fixed",
+    backgroundRepeat: "no-repeat"
   };
 
   if (props.header === undefined) return <div>loading...</div>;

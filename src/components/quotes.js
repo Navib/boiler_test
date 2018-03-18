@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Swiper from "react-id-swiper";
+import PropTypes from "prop-types";
 
 const params = {
   direction: "vertical",
@@ -30,6 +31,10 @@ const Quotes = props => {
       </Swiper>
     </div>
   );
+};
+
+Quotes.propTypes = {
+  quotes: PropTypes.array
 };
 
 export default Quotes;

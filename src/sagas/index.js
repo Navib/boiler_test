@@ -4,6 +4,7 @@ import api from "../api";
 import header from "../api/header";
 import videos from "../api/videos";
 import quotes from "../api/quotes";
+import footer from "../api/footer";
 
 function* getStuff() {
   try {
@@ -35,10 +36,21 @@ function* getQuotes() {
   }
 }
 
+function* getFooter() {
+  try {
+    const data = yield call(footer.getFooter);
+    yield put({ type: actions.GOT_FOOTER, data });
+  } catch (error) {
+    console.log("saga fail: ", error);
+    yield put({ type: actions.GOT_NO_STUFF, error });
+  }
+}
+
 export function* sagas() {
   yield all([
     takeLatest(actions.GET_HEADER, getStuff),
     takeLatest(actions.GET_VIDEOS, getVideos),
-    takeLatest(actions.GET_QUOTES, getQuotes)
+    takeLatest(actions.GET_QUOTES, getQuotes),
+    takeLatest(actions.GET_FOOTER, getFooter)
   ]);
 }
