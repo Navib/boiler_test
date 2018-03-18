@@ -21,42 +21,42 @@ const styles = {
 
 const tilesData = [
   {
-    img: "http://via.placeholder.com/350x150",
+    video: "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
     title: "Breakfast",
     author: "jill111"
   },
   {
-    img: "http://via.placeholder.com/350x150",
+    video: "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
     title: "Tasty burger",
     author: "pashminu"
   },
   {
-    img: "http://via.placeholder.com/350x150",
+    video: "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
     title: "Camera",
     author: "Danson67"
   },
   {
-    img: "http://via.placeholder.com/350x150",
+    video: "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
     title: "Morning",
     author: "fancycrave1"
   },
   {
-    img: "http://via.placeholder.com/350x150",
+    video: "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
     title: "Hats",
     author: "Hans"
   },
   {
-    img: "http://via.placeholder.com/350x150",
+    video: "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
     title: "Honey",
     author: "fancycravel"
   },
   {
-    img: "http://via.placeholder.com/350x150",
+    video: "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
     title: "Vegetables",
     author: "jill111"
   },
   {
-    img: "http://via.placeholder.com/350x150",
+    video: "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
     title: "Water plant",
     author: "BkrmadtyaKarki"
   }
@@ -64,9 +64,8 @@ const tilesData = [
 
 const Videos = () => (
   <div className="video-wrapper">
-    <h1>Acting Reels</h1>
     <div style={styles.root}>
-      <GridList style={styles.gridList} cols={2.2}>
+      <GridList style={styles.gridList} cols={2.2} cellHeight={"auto"}>
         {tilesData.map(tile => (
           <GridTile
             key={tile.title}
@@ -79,7 +78,9 @@ const Videos = () => (
             titleStyle={styles.titleStyle}
             titleBackground="linear-gradient(to top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)"
           >
-            <img src={tile.img} />
+            <video width="600" height="400" controls>
+              <source src={tile.video} type="video/mp4" />
+            </video>
           </GridTile>
         ))}
       </GridList>
