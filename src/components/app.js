@@ -2,13 +2,16 @@ import React from "react";
 import PropTypes from "prop-types";
 import Header from "../containers/header";
 import Videos from "../containers/videos";
-import Quotes from "../components/quotes";
+import Quotes from "../containers/quotes";
+import Divider from "material-ui/Divider";
 
 const App = props => (
   <div>
     <Header />
     <Videos />
+    <Divider style={{ marginTop: "4em" }} />
     <Quotes />
+    <Divider />
   </div>
 );
 

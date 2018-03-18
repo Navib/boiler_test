@@ -10,27 +10,26 @@ const params = {
   spaceBetween: 30
 };
 
-class Quotes extends Component {
-  constructor(props) {
-    super(props);
-  }
-  componentDidMount() {}
-  render() {
-    return (
-      <div className="quote-wrapper">
-        <Swiper {...params}>
-          <div className="quote-slide">
-            <div className="left-side">Left</div>
-            <div className="right-side">Right</div>
+const Quotes = props => {
+  if (props.quotes === undefined) return <div>loading...</div>;
+
+  return (
+    <div className="quote-wrapper">
+      <Swiper {...params}>
+        {props.quotes.map(quote => (
+          <div className="quote-slide" key={quote.id}>
+            <div className="left-side">
+              <p className="text-body">{quote.quote}</p>
+              <p className="text-author">{quote.author}</p>
+            </div>
+            <div className="right-side">
+              <img src={quote.bgImage} className="quote-img" />
+            </div>
           </div>
-          <div className="quote-slide">
-            <div className="left-side">Left</div>
-            <div className="right-side">Right</div>
-          </div>
-        </Swiper>
-      </div>
-    );
-  }
-}
+        ))}
+      </Swiper>
+    </div>
+  );
+};
 
 export default Quotes;

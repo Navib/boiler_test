@@ -1,9 +1,9 @@
 @lost flexbox flex;
 
 .quote-wrapper {
-  padding: 4em 0;
+  padding: 4em 2em 1em;
   lost-utility: clearfix;
-  lost-center: 980px;
+  lost-center: 1020px;
   lost-align: center;
 
   .swiper-container {
@@ -12,6 +12,8 @@
 
     .quote-slide {
       display: flex;
+      width: 90%;
+      margin: 0 auto;
 
       .left-side,
       .right-side {
@@ -20,15 +22,30 @@
       }
 
       .left-side {
-        background: #444;
+        background: #fff;
         height: 550px;
-        color: #fff;
+        color: #444;
+        flex-flow: column wrap;
+        border-left: 1px solid #dbdde644;
+
+        .text-body {
+        }
+
+        .text-author {
+        }
       }
 
       .right-side {
-        background: #fff;
         color: #444;
         height: 550px;
+        position: relative;
+
+        .quote-img {
+          width: 100%;
+          position: absolute;
+          top: 0;
+          height: 100%;
+        }
       }
     }
   }
