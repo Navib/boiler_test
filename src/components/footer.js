@@ -1,9 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "../assets/footer_bg.png";
 
 const Footer = props => {
-  console.log("component footer: ", props);
   const { contact, name, social } = props.footer;
+  const bg = {
+    backgroundImage: "url(./assets/footer_bg.png)",
+    backgroundSize: "180px",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat"
+  };
 
   return (
     <div className="footer-container">
@@ -31,16 +37,16 @@ const Footer = props => {
                 {contact.location}
               </a>
             </li>
+            <li className="contact-list-item">{contact.management_name}</li>
             <li className="contact-list-item">
               <a href={`tel:+01-${contact.management_contact}`}>
                 {contact.management_contact}
               </a>
             </li>
-            <li className="contact-list-item">{contact.management_name}</li>
           </ul>
         </div>
       </div>
-      <div className="footerBackground" />
+      <div className="footerBackground" style={bg} />
     </div>
   );
 };

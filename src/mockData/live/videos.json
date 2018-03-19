@@ -1,0 +1,43 @@
+[
+  {
+    "id": 0,
+    "video": "./assets/videos/test.mp4",
+    "demo_video": "https://player.vimeo.com/video/212488303",
+    "title": "Demo Reel"
+  },
+  {
+    "id": 1,
+    "video": "./assets/videos/test.mp4",
+    "demo_video":
+      "https://www.youtube.com/embed/gjcbhSXxpos?modestbranding=1&autohide=1&showinfo=0&controls=1",
+    "title": "FOU Studios Scene Practice"
+  },
+  {
+    "id": 2,
+    "video": "./assets/videos/test.mp4",
+    "demo_video":
+      "https://www.youtube.com/embed/r4XOCs2faA4?modestbranding=1&autohide=1&showinfo=0&controls=1",
+    "title": "Barry Allen"
+  },
+  {
+    "id": 3,
+    "video": "./assets/videos/test.mp4",
+    "demo_video":
+      "https://www.youtube.com/embed/jxtXCjKX_CQ?modestbranding=1&autohide=1&showinfo=0&controls=1",
+    "title": "TTB BOYZ - The Unsteady Journey With Me Too Greatness"
+  },
+  {
+    "id": 4,
+    "video": "./assets/videos/test.mp4",
+    "demo_video":
+      "https://www.youtube.com/embed/pOP-M3FOONQ?modestbranding=1&autohide=1&showinfo=0&controls=1",
+    "title": "Archer (Cold Read)"
+  },
+  {
+    "id": 5,
+    "video": "./assets/videos/test.mp4",
+    "demo_video":
+      "https://www.youtube.com/embed/feufY7NFbPo?modestbranding=1&autohide=1&showinfo=0&controls=1",
+    "title": "Pillowman: Ariel's Monologue"
+  }
+]

@@ -38,9 +38,7 @@ const Videos = props => {
               titlePosition={"top"}
             >
               <div className="video-player-wrap">
-                <video controls>
-                  <source src={video.demo_video} type="video/mp4" />
-                </video>
+                <iframe src={video.demo_video} frameBorder="0" />
               </div>
             </GridTile>
           ))}

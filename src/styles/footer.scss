@@ -32,11 +32,26 @@
   }
   .footerBackground {
     position: absolute;
-    width: 100%;
+    width: 30%;
     height: 100%;
-    background: rgba(107, 107, 107, 0.05);
     top: 0;
+    left: 4em;
     z-index: -1;
+  }
+
+  .footerBackground:before {
+    position: absolute;
+    content: "";
+    border: 3px dashed #444;
+    border-radius: 50%;
+    height: 70%;
+    width: 70%;
+    left: 14%;
+    top: 14%;
+    animation-name: spin;
+    animation-duration: 22000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
 
   .footer-contact-card {
@@ -49,7 +64,7 @@
       color: #666;
 
       .contact-list-item {
-        margin: 0.2em 0;
+        margin: 0.4em 0;
 
         a {
           text-decoration: none;
@@ -62,5 +77,14 @@
         }
       }
     }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
