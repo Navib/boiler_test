@@ -39,7 +39,11 @@ const Videos = props => {
               titlePosition={"top"}
             >
               <div className="video-player-wrap">
-                <iframe src={video.demo_video} frameBorder="0" />
+                <iframe
+                  src={video.demo_video}
+                  frameBorder="0"
+                  allowFullScreen
+                />
               </div>
             </GridTile>
           ))}
