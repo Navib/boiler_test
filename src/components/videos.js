@@ -27,6 +27,7 @@ const Videos = props => {
 
   return (
     <div className="video-wrapper">
+      <h1 className="section-header">Acting Reels</h1>
       <div style={styles.root}>
         <GridList style={styles.gridList} cols={1} cellHeight={"auto"}>
           {props.videos.map(video => (
