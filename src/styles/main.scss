@@ -19,7 +19,7 @@ body {
 .section-header::before {
   content: "";
   position: absolute;
-  width: 10%;
+  width: 80px;
   margin: 0 auto;
   border-bottom: 2px solid;
   bottom: -10px;
@@ -35,7 +35,7 @@ body {
   .section-header::before {
     content: "";
     position: absolute;
-    width: 20%;
+    width: 80px;
     margin: 0 auto;
     border-bottom: 2px solid;
     bottom: -6px;
