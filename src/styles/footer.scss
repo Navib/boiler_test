@@ -32,7 +32,7 @@
   }
   .footerBackground {
     position: absolute;
-    width: 30%;
+    width: 310px;
     height: 100%;
     top: 0;
     left: 4em;
@@ -44,10 +44,10 @@
     content: "";
     border: 3px dashed #444;
     border-radius: 50%;
-    height: 70%;
-    width: 70%;
-    left: 14%;
-    top: 14%;
+    height: 220px;
+    width: 220px;
+    left: 42px;
+    top: 60px;
     animation-name: spin;
     animation-duration: 22000ms;
     animation-iteration-count: infinite;
@@ -74,6 +74,95 @@
 
         a:hover {
           opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 50em) {
+  .footer-container {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    lost-align: center;
+    .footer-contact-card {
+      padding-top: 3em;
+    }
+    .content {
+      z-index: 10;
+      lost-offset: 1/2;
+      margin: 0 auto !important;
+      text-align: center;
+
+      .social-bar {
+        list-style-type: none;
+        display: inline-flex;
+        padding-left: 0;
+        margin: 2em 0 4em;
+
+        .social-item {
+          text-align: center;
+          margin: 0 10px;
+
+          a {
+            text-decoration: none;
+            color: #666;
+            transition: all 0.3s ease-in-out;
+          }
+
+          a:hover {
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+    .footerBackground {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      top: 2.4em;
+      left: 50%;
+      z-index: -1;
+      background-size: 90px !important;
+      transform: translateX(-50%);
+    }
+
+    .footerBackground:before {
+      position: absolute;
+      content: "";
+      border: 3px dashed #444;
+      border-radius: 50%;
+      height: 74%;
+      width: 74%;
+      left: 10.5%;
+      top: 13%;
+      animation-name: spin;
+      animation-duration: 22000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    .footer-contact-card {
+      .f-name {
+      }
+
+      .contact-list {
+        padding-left: 0;
+        list-style: none;
+        color: #666;
+
+        .contact-list-item {
+          margin: 0.4em 0;
+
+          a {
+            text-decoration: none;
+            color: #666;
+            transition: all 0.3s ease-in-out;
+          }
+
+          a:hover {
+            opacity: 0.7;
+          }
         }
       }
     }
