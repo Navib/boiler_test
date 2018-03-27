@@ -5,10 +5,12 @@ import Videos from "../containers/videos";
 import Quotes from "../containers/quotes";
 import Footer from "../containers/footer";
 import Divider from "material-ui/Divider";
+import MainVideo from "../containers/main_video";
 
 const App = props => (
   <div>
     <Header />
+    <MainVideo />
     <Videos />
     <Divider style={{ marginTop: "4em" }} />
     <Quotes />

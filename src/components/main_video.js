@@ -22,15 +22,15 @@ const styles = {
   }
 };
 
-const Videos = props => {
+const MainVideo = props => {
   if (props.videos === undefined) return <div>loading...</div>;
 
   return (
     <div className="video-wrapper">
-      <h1 className="section-header">Media Clips</h1>
+      <h1 className="section-header">Demo Reel</h1>
       <div style={styles.root}>
         <GridList style={styles.gridList} cols={1} cellHeight={"auto"}>
-          {props.videos.slice(1, 6).map(video => (
+          {props.videos.slice(0, 1).map(video => (
             <GridTile
               key={video.id}
               title={video.title}
@@ -53,11 +53,11 @@ const Videos = props => {
   );
 };
 
-Videos.propTypes = {
+MainVideo.propTypes = {
   videos: PropTypes.array
 };
 
-Videos.defaultProps = {
+MainVideo.defaultProps = {
   videos: [
     {
       title: "Default Title",
@@ -67,4 +67,4 @@ Videos.defaultProps = {
   ]
 };
 
-export default Videos;
+export default MainVideo;
