@@ -31,18 +31,13 @@ const MainVideo = props => {
       <div style={styles.root}>
         <GridList style={styles.gridList} cols={1} cellHeight={"auto"}>
           {props.videos.slice(0, 1).map(video => (
-            <GridTile
-              key={video.id}
-              title={video.title}
-              titleStyle={styles.titleStyle}
-              titleBackground="linear-gradient(to top, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)"
-              titlePosition={"top"}
-            >
+            <GridTile key={video.id}>
               <div className="video-player-wrap">
                 <iframe
                   src={video.demo_video}
                   frameBorder="0"
                   allowFullScreen
+                  style={}
                 />
               </div>
             </GridTile>

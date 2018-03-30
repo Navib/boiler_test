@@ -10,7 +10,12 @@ const Footer = props => {
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat"
   };
-
+  const mgmtStyle = {
+    borderBottom: "1px solid #444",
+    display: "inline-block",
+    lineHeight: "20px",
+    color: "black"
+  };
   return (
     <div className="footer-container">
       <div className="content">
@@ -37,7 +42,10 @@ const Footer = props => {
                 {contact.location}
               </a>
             </li>
-            <li className="contact-list-item">{contact.management_name}</li>
+            <li className="contact-list-item">
+              <small style={mgmtStyle}>Manager</small> <br />
+              {contact.management_name}
+            </li>
             <li className="contact-list-item">
               <a href={`tel:+01-${contact.management_contact}`}>
                 {contact.management_contact}

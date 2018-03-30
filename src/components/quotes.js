@@ -23,7 +23,7 @@ const Quotes = props => {
   return (
     <div className="quote-wrapper">
       <h1 className="section-header">
-        <span>Reviews</span> <span className="hide-sm">& Headshots</span>
+        <span>Reviews</span>
       </h1>
       <Swiper {...params}>
         {props.quotes.map(quote => (
