@@ -1,5 +1,12 @@
 [
   {
+    "id": 10,
+    "author": "Penny Templeton Studio - Acting Teacher/Coach",
+    "quote":
+      "Justin C. Schilling is an 'Actor’s Actor'. Theatre, film, and television, there isn’t any area of the craft he doesn’t​ ​passionately embrace and joyfully climb the ladder of hard work to achieve. As he has attracted more auditions and professional work, he has always  continued his training, jumping back into Master Class ready to stretch and continue to grow on his artistic path.​ ​Recently, Justin also played a major role in the play Katie, that I directed at Theater for the New City. Through insight, hard work and dedication, he evolved into the character, illuminating the play and earning the respect of the cast, playwright and myself. He never says 'I can’t' or 'No' to the director. Always open to new ideas and directorial impulses, he will turn himself inside out to help the director turn their ideas into reality. He is a true leader on set inspiring all to 'bring their best', with his charm, humility and love of the process. As he keeps raising the bar and owning his work, everyone he works with wants Justin to be a part of their future productions. He is truly an 'Acting Lion'.'",
+    "bgImage": "./assets/jcsDetectiveBurke.jpg"
+  },
+  {
     "id": 0,
     "author": "Ashleigh Coffelt: Miss Ash Productions",
     "quote":
@@ -28,11 +35,18 @@
     "bgImage": "./assets/studio.png"
   },
   {
-    "id": 3,
+    "id": 33,
+    "author": "Stephen Piccirillo - Writer & Director of LOVERS & LIARS.",
+    "quote":
+      "'Justin was an asset on my set for my film. I knew Justin was the right person for the part of “Mike”.  On my production, Justin adapted to the character in which he was to portray.  He not only took great direction, he put his own style into the character and was willing to go the extra mile to help perfect my creation. He is a great person and a pleasure to work with. He was friendly and mingled with every single person on set​, and was also very supportive and available for his co-stars.​ I would love to work with Justin again. His performance was outstanding!​'",
+    "bgImage": "./assets/lovers_and_liars_jcs.png"
+  },
+  {
+    "id": 34,
     "author": "Rob Cuollo: Director of 'The Damaged'",
     "quote":
       "'Justin was such a fun spirit on set. He always brought 100% to each scene, and helped add more to the character then what was written on the page. His energy was high and he was full of helpful suggestions that added more realism to the character. I️ worked so well with him and he was such a funny guy on and off camera. He always knew how to make everyone laugh, and I️ admire that, as making a film can be so stressful, he helped us all feel as ease and helped bring smiles to everyone throughout each day. I plan to work with Justin again and I️ can’t wait for that opportunity.'",
-    "bgImage": "./assets/tmobile.png"
+    "bgImage": "./assets/thedamagedRob.png"
   },
   {
     "id": 5,
@@ -40,5 +54,12 @@
     "quote":
       "'Justin has an irresistible charm and a contagious energy on the stage. Offstage, he's a positive force with an insatiable desire to improve on his craft. He's just a great guy to work with and is a highly valued member of our team.'",
     "bgImage": "./assets/onsetdam.png"
+  },
+  {
+    "id": 6,
+    "author": "Stage Buddy review of Greenhouse Ensemble's: THE MALTESE WALTER",
+    "quote":
+      "'The Maltese Walter” by John Minigan, another fine piece of original work, has a man called Walter, portrayed consummately by Justin Schilling, seeking therapy to overcome his tendency to wander off mid-conversation into the black-and-white world of film noir. R. David Robinson was most enjoyable as the back-stabbing therapist Dr. Eddy, pulling together this delicious story executed with perfection by director Keegan McDonald.'",
+    "bgImage": "./assets/bang_outro.png"
   }
 ]

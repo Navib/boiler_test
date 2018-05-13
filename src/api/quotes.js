@@ -2,7 +2,7 @@ import axios from "axios";
 import actions from "../actions";
 
 const makeRequestQuote = () =>
-  axios.get("https://api.myjson.com/bins/dc50v", {
+  axios.get("https://api.myjson.com/bins/mxpdy", {
     withCredentials: false
   });
 

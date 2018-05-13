@@ -6,6 +6,13 @@
     "title": "Demo Reel"
   },
   {
+    "id": 10,
+    "video": "./assets/videos/test.mp4",
+    "demo_video":
+      "https://www.youtube.com/embed/7EOKh3_X48Y?modestbranding=1&autohide=1&showinfo=0&controls=1",
+    "title": "Selson Blue Commercial"
+  },
+  {
     "id": 1,
     "video": "./assets/videos/test.mp4",
     "demo_video":

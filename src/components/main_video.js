@@ -37,7 +37,6 @@ const MainVideo = props => {
                   src={video.demo_video}
                   frameBorder="0"
                   allowFullScreen
-                  style={}
                 />
               </div>
             </GridTile>

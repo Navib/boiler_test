@@ -7,9 +7,13 @@ import "../assets/jcsactor.png";
 import "../assets/studio.png";
 import "../assets/tmobile.png";
 import "../assets/onsetdam.png";
+import "../assets/jcsDetectiveBurke.jpg";
+import "../assets/thedamagedRob.png";
+import "../assets/lovers_and_liars_jcs.png";
+import "../assets/bang_outro.png";
 
 const params = {
-  direction: "vertical",
+  direction: "horizontal",
   pagination: {
     el: ".swiper-pagination",
     clickable: true
